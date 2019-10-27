@@ -8,3 +8,5 @@ You may find all of the trained models within this link: https://drive.google.co
 - Small CRC
   - Region Proposal: version 17k, "mlp_histogram_v17k.hdf5"
   - Classifier: version 6c, "discriminator-v6c.tflite"
+- Large CRC
+  - Modified Faster R-CNN: "model_frcnn.hdf5"
