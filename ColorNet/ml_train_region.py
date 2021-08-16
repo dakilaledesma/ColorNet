@@ -1,10 +1,10 @@
-from keras.layers import Dense, Dropout, Input, Concatenate, BatchNormalization
-from keras.callbacks import ModelCheckpoint, EarlyStopping, TerminateOnNaN
-from keras.models import Sequential, Model, load_model
-from keras import regularizers
+from tensorflow.keras.layers import Dense, Dropout, Input, Concatenate, BatchNormalization
+from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, TerminateOnNaN
+from tensorflow.keras.models import Sequential, Model, load_model
+from tensorflow.keras import regularizers
 from PIL import Image
 from glob import iglob
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 import random
 from tqdm import tqdm
 import numpy as np
